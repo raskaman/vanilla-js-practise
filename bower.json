@@ -1,0 +1,21 @@
+{
+  "name": "Hugepoll",
+  "version": "0.1.0",
+  "description": "Huge polls system",
+  "authors": [
+    "John Mondragon"
+  ],
+  "license": "",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "devDependencies": {
+    
+  },
+  "dependencies": {
+    
+  }
+}

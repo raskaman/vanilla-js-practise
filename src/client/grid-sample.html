@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+    <title>My App - grid Sample</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <link rel="stylesheet" href="/.tmp/styles.css">
+</head>
+<body class="site">
+
+<main class="site-content">
+<div class="container">
+    <div class="grid grid--gutters u-textCenter">
+        <div class="grid-cell">
+            <div class="demo">1/2</div>
+        </div>
+
+        <div class="grid-cell">
+            <div class="demo">1/2</div>
+        </div>
+    </div>
+
+    <div class="grid grid--gutters u-textCenter">
+        <div class="grid-cell">
+            <div class="demo">1/3</div>
+        </div>
+
+        <div class="grid-cell">
+            <div class="demo">1/3</div>
+        </div>
+
+        <div class="grid-cell">
+            <div class="demo">1/3</div>
+        </div>
+    </div>
+
+    <div class="grid grid--gutters u-textCenter">
+        <div class="grid-cell">
+            <div class="demo">1/4</div>
+        </div>
+
+        <div class="grid-cell">
+            <div class="demo">1/4</div>
+        </div>
+
+        <div class="grid-cell">
+            <div class="demo">1/4</div>
+        </div>
+
+        <div class="grid-cell">
+            <div class="demo">1/4</div>
+        </div>
+    </div>
+
+    <div class="grid grid--gutters grid--flexCells">
+        <div class="grid-cell">
+            <div class="demo">Full-height, even when my content doesn't fill the space.</div>
+        </div>
+
+        <div class="grid-cell">
+            <div class="demo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mollis velit non gravida venenatis. Praesent consequat lectus purus, ut scelerisque velit condimentum eu. Maecenas sagittis ante ut turpis varius interdum. Quisque tellus ipsum, eleifend non ipsum id, suscipit ultricies neque.</div>
+        </div>
+    </div>
+
+    <h3>Individual Sizing</h3>
+    <div class="grid grid--gutters u-textCenter">
+        <div class="grid-cell u-1of2">
+            <div class="demo">1/2</div>
+        </div>
+
+        <div class="grid-cell">
+            <div class="demo">auto</div>
+        </div>
+
+        <div class="grid-cell">
+            <div class="demo">auto</div>
+        </div>
+
+    </div>
+
+    <div class="grid grid--gutters u-textCenter">
+        <div class="grid-cell">
+            <div class="demo">auto</div>
+        </div>
+
+        <div class="grid-cell u-1of3">
+            <div class="demo">1/3</div>
+        </div>
+
+    </div>
+
+    <div class="grid grid--gutters u-textCenter">
+        <div class="grid-cell u-1of4">
+            <div class="demo">1/4</div>
+        </div>
+
+        <div class="grid-cell">
+            <div class="demo">auto</div>
+        </div>
+
+        <div class="grid-cell u-1of3">
+            <div class="demo">1/3</div>
+        </div>
+    </div>
+
+    <h3>Responsive</h3>
+
+    <div class="grid grid--gutters grid--full large-grid--fit u-textCenter">
+        <div class="grid-cell">
+            <div class="demo">Full / Halves</div>
+        </div>
+
+        <div class="grid-cell">
+            <div class="demo">Full / Halves</div>
+        </div>
+
+    </div>
+
+    <div class="grid grid--gutters grid--full large-grid--fit u-textCenter">
+        <div class="grid-cell">
+            <div class="demo">Full / Thirds</div>
+        </div>
+        <div class="grid-cell">
+            <div class="demo">Full / Thirds</div>
+        </div>
+        <div class="grid-cell">
+            <div class="demo">Full / Thirds</div>
+        </div>
+    </div>
+
+    <h3>grid-ception</h3>
+
+    <div class="grid grid--gutters grid--flexCells u-textCenter">
+        <div class="grid-cell">
+            <div class="demo">
+                <div class="grid grid--gutters u-textCenter">
+                    <div class="grid-cell u-1of3">
+                        <div class="demo">1/3</div>
+                    </div>
+                    <div class="grid-cell">
+                        <div class="demo">
+                            <div class="grid grid--gutters u-textCenter">
+                                <div class="grid-cell">
+                                    <div class="demo">1/2</div>
+                                </div>
+                                <div class="grid-cell">
+                                    <div class="demo">1/2</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-cell u-1of3">
+            <div class="demo">1/3</div>
+        </div>
+    </div>
+    <h2>Alignment Features</h2><h3>Top-aligned grid Cells</h3>
+    <div class="grid grid--gutters grid--top">
+        <div class="grid-cell">
+            <div class="demo">This cell should be top-aligned.</div>
+        </div>
+        <div class="grid-cell u-1of2">
+            <div class="demo">Pellentesque sagittis vel erat ac laoreet. Phasellus ac aliquet enim, eu aliquet sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar porta leo, eu ultricies nunc sollicitudin vitae. Curabitur pulvinar dolor lectus, quis porta turpis ullamcorper nec. Quisque eget varius turpis, quis iaculis nibh.</div>
+        </div>
+        <div class="grid-cell">
+            <div class="demo">This cell should be top-aligned.</div>
+        </div>
+    </div>
+
+    <h3>Bottom-aligned grid Cells</h3>
+
+    <div class="grid grid--gutters grid--bottom">
+        <div class="grid-cell">
+            <div class="demo">This cell should be bottom-aligned.</div>
+        </div>
+        <div class="grid-cell">
+            <div class="demo">Curabitur pulvinar dolor lectus, quis porta turpis ullamcorper nec. Quisque eget varius turpis, quis iaculis nibh. Ut interdum ligula id metus hendrerit cursus. Integer eu leo felis. Aenean commodo ultrices nunc, sit amet blandit elit gravida in.</div>
+        </div>
+        <div class="grid-cell">
+            <div class="demo">This cell should be bottom-aligned.</div>
+        </div>
+    </div>
+
+    <h3>Vertically Centered grid Cells</h3>
+
+    <div class="grid grid--gutters grid--center">
+        <div class="grid-cell">
+            <div class="demo">This cell should be vertically-centered with the cell to its right.</div>
+        </div>
+        <div class="grid-cell">
+            <div class="demo">Curabitur pulvinar dolor lectus, quis porta turpis ullamcorper nec. Quisque eget varius turpis, quis iaculis nibh. Ut interdum ligula id metus hendrerit cursus. Integer eu leo felis. Aenean commodo ultrices nunc, sit amet blandit elit gravida in. Sed est ligula, ornare ac nisi adipiscing, iaculis facilisis tellus. Nullam vel facilisis libero. Duis semper lobortis elit, vitae dictum erat.</div>
+        </div>
+    </div>
+
+    <h3>Mixed Vertical Alignment</h3>
+
+    <div class="grid grid--gutters">
+        <div class="grid-cell grid-cell--top">
+            <div class="demo">This cell should be top aligned.</div>
+        </div>
+        <div class="grid-cell">
+            <div class="demo">Curabitur pulvinar dolor lectus, quis porta turpis ullamcorper nec. Quisque eget varius turpis, quis iaculis nibh. Ut interdum ligula id metus hendrerit cursus. Integer eu leo felis. Aenean commodo ultrices nunc, sit amet blandit elit gravida in. Sed est ligula, ornare ac nisi adipiscing, iaculis facilisis tellus.</div>
+        </div>
+        <div class="grid-cell grid-cell--center">
+            <div class="demo">This cell should be center-aligned.</div>
+        </div>
+        <div class="grid-cell grid-cell--bottom">
+            <div class="demo">This cell should be bottom-aligned.</div>
+        </div>
+    </div>
+
+  </div>
+</main>
+
+</body>
+</html>

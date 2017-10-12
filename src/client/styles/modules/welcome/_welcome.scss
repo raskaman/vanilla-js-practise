@@ -1,0 +1,55 @@
+.welcome {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+
+  &__header {
+    margin: auto;
+  }
+
+  h1 {
+    background: url('../images/brand/logo-poll-white.svg') no-repeat;
+    display: block;
+    height: 43px;
+    width: 258px;
+
+    span {
+      display: none;
+    }
+  }
+
+  &__content {
+    margin: auto;
+    padding-bottom: 70px;
+    padding-top: 70px;
+    text-align: center;
+    width: 301px;
+  }
+
+  p {
+    color: $white-color;
+    font-size: 1.6rem;
+    line-height: 2.7rem;
+    opacity: 0.9;
+  }
+
+  &__signin {
+    margin: auto;
+    width: 120px;
+  }
+
+  @include medium {
+    &__header {
+      //padding-top: 310px;
+    }
+
+    &__content {
+      width: 575px;
+    }
+
+    p {
+      font-size: 1.8rem;
+    }
+  }
+}
